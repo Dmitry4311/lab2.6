@@ -74,7 +74,7 @@ if __name__ == '__main__':
                     print(
                         '{:>4}, {}, {}'.format(worker.get('surname', ''),
                                                worker.get('name', ''),
-                                               list(map(int,worker.get('date_of_birth', '').split('.'))))
+                                               list(map(int, worker.get('date_of_birth', '').split('.'))))
                     )
                 else:
                     print("Знак зодиака не найден")
